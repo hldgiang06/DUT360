@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Tour 360° - Đại học Bách khoa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  
+<header class="header">
+
+  <a href="#home" class="brand">
+
+    <img
+      src="images/logo-bach-khoa.png"
+      alt="Logo Đại học Bách khoa"
+      class="school-logo"
+    >
+
+    <span class="brand-divider"></span>
+
+    <div class="brand-name">
+      <strong>DUT<span>360</span></strong>
+      <small>VIRTUAL CAMPUS TOUR</small>
+    </div>
+
+  </a>
+
+  <button class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Mở menu"
+          aria-expanded="false">
+    ☰
+  </button>
+
+  <nav class="navigation" id="navigation">
+
+    <a href="#home" class="nav-link active">
+      ⌂ Trang chủ
+    </a>
+
+    <a href="#tour" class="nav-link">
+      ◎ Tham quan 360°
+    </a>
+
+    <a href="#places" class="nav-link">
+      ▥ Địa điểm
+    </a>
+
+    <a href="#map" class="nav-link">
+      ▧ Bản đồ
+    </a>
+
+    <a href="#about" class="nav-link">
+      ⓘ Giới thiệu
+    </a>
+
+  </nav>
+
+</header>
+
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="welcome">CHÀO MỪNG ĐẾN VỚI DUT</p>
+
+      <h1>KHÁM PHÁ ĐẠI HỌC BÁCH KHOA</h1>
+
+      <p>
+        Trải nghiệm không gian học tập, nghiên cứu
+        và sinh hoạt tại Trường Đại học Bách khoa -
+        Đại học Đà Nẵng.
+      </p>
+
+      <a class="btn" href="#tour">
+        Bắt đầu khám phá →
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="tour">
+    <h2>Tham quan thực tế ảo 360°</h2>
+    <p>Khám phá khuôn viên trường qua ảnh panorama thực tế.</p>
+
+    <div class="preview">
+      <h3>Tour 360° đang được chuẩn bị</h3>
+      <p>Chúng ta sẽ bổ sung ảnh panorama ở bài tiếp theo.</p>
+      <button id="tour-button">Xem thông tin</button>
+    </div>
+  </section>
+
+  <section class="section" id="places">
+    <h2>Địa điểm nổi bật</h2>
+
+    <div class="cards">
+      <article class="card">
+        <img src="images/cong-truong.png"
+             alt="Cổng trường Đại học Bách khoa">
+        <h3>Cổng chính</h3>
+        <p>Điểm bắt đầu hành trình khám phá.</p>
+      </article>
+
+      <article class="card">
+        <div class="placeholder">🏢</div>
+        <h3>Khu giảng đường</h3>
+        <p>Không gian học tập và giảng dạy.</p>
+      </article>
+
+      <article class="card">
+        <div class="placeholder">📚</div>
+        <h3>Thư viện</h3>
+        <p>Không gian học tập và nghiên cứu.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="map">
+    <h2>Bản đồ tổng thể</h2>
+    <div class="map-box">
+      Mặt bằng SketchUp sẽ hiển thị tại đây.
+    </div>
+  </section>
+
+  <footer>
+    DUT Virtual Tour 360° - Dự án tham quan trường học
+  </footer>
+</body>
+</html>
